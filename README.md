@@ -147,3 +147,5 @@ teacher1.walk();
 
  ``` import React, {Component} from 'react' ```
 > **_NOTE:_** React is default export, Component is named export React is defined something  ```export default class React {``` Component is defined export class ```Component {
+> Named exports are useful to export several values. During the import, one will be able to use the same name to refer to the corresponding value. Concerning the default export, there is only a single default export per module
+
